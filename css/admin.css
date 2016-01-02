@@ -1,0 +1,242 @@
+.header {
+  background-color: #424242;
+  width: 100%;
+  height: 55px;
+}
+
+.header > .content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header > .content > .options {
+  padding-top: 3px;
+}
+
+.header > .content > .options > .dropdown {
+  margin-top: 8px;
+}
+
+.navbar {
+  width: auto;
+  max-width: 1000px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+.navbar ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.navbar ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.navbar.align-right ul li {
+  float: right;
+}
+.navbar.align-center ul {
+  text-align: center;
+}
+.navbar ul li a {
+  color: #585858;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+.navbar ul li a:hover {
+  color: #333333;
+}
+.navbar ul li a:hover:before {
+  width: 100%;
+}
+.navbar ul li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+}
+.navbar ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #333333;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+.navbar ul li.last > a:after,
+.navbar ul li:last-child > a:after {
+  display: none;
+}
+.navbar ul li.active a {
+  color: #333333;
+}
+.navbar ul li.active a:before {
+  width: 100%;
+}
+.navbar.align-right li.last > a:after,
+.navbar.align-right li:last-child > a:after {
+  display: block;
+}
+.navbar.align-right li:first-child a:after {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .navbar ul li {
+    float: none;
+    display: block;
+  }
+  .navbar ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fb998c;
+  }
+  .navbar ul li.last > a,
+  .navbar ul li:last-child > a {
+    border: 0;
+  }
+  .navbar ul li a:after {
+    display: none;
+  }
+  .navbar ul li a:before {
+    display: none;
+  }
+}
+
+body .alert {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login {
+  background-color: #EEE;
+  max-width: 500px;
+  min-height: 20px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding: 15px 15px 15px 15px;
+}
+
+.login > .content h2 {
+  text-align: center;
+}
+
+.login > .content input[type="submit"] {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.page-content {
+  max-width: 1000px;
+  min-height: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #EEE;
+  border-radius: 10px;
+}
+
+.page-content h3 {
+  margin-bottom: 30px;
+  border-bottom: 2px solid #BDBDBD;
+}
+
+.panel-title {
+  margin-bottom: 0px !important;
+  border-bottom: none !important;
+}
+
+.page-content input, .input-group {
+  margin-bottom: 5px;
+}
+
+.page-content input[type="submit"] {
+  margin-top: 10px;
+}
+
+.page-content input[name="GeneralSettings"] {
+  margin-bottom: 20px;
+}
+
+.table {
+  margin-bottom: 0px;
+}
+
+.order-show {
+  font-size: 25px;
+  margin-top: -3px;
+}
+
+a.order-show {
+  text-decoration: none;
+}
+
+.none {
+  display: none;
+}
+
+.order-margin-bottom {
+  margin-bottom: -20px;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #21252B;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-content > .signature {
+  color: #FFF;
+  padding-top: 14px;
+  text-align: right;
+}
+
+.footer-content > .signature a {
+  color: #FFF;
+}

@@ -1,0 +1,175 @@
+.header {
+  background-color: #01598C;
+  width: 100%;
+  height: 200px;
+  border-bottom: 8px solid #38ADFF;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-content > .logo a {
+  color: #FFF;
+  font-size: 120px;
+  line-height: 220px;
+  vertical-align: middle;
+  transition: all 0.4s;
+}
+
+.header-content > .logo a:hover {
+  text-shadow: 2px 2px 8px #000;
+}
+
+.panel {
+    text-align: center;
+    transition: all 0.4s;
+}
+
+.panel:hover {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px 5px rgba(130, 130, 130, 0.35);
+}
+
+.panel-body {
+    padding: 0px;
+    text-align: center;
+}
+
+.the-price {
+  background-color: rgba(220,220,220,.17);
+  box-shadow: 0 1px 0 #DCDCDC, inset 0 1px 0 #FFF;
+  padding: 20px;
+  margin: 0;
+}
+
+.the-price h1 {
+  line-height: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+.subscript {
+  font-size: 25px;
+}
+
+.cnrflash {
+  position: absolute;
+  top: -9px;
+  right: 4px;
+  z-index: 1;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  border-radius: 3px 5px 3px 0;
+}
+
+.cnrflash-inner {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 145px;
+  height: 145px;
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.1) 50%), linear-gradient(0deg, transparent 0%, rgba(1,1,1,.2) 50%);
+  background-size: 4px,auto, auto,auto;
+  background-color: #AA0101;
+  box-shadow: 0 3px 3px 0 rgba(1,1,1,.5), 0 1px 0 0 rgba(1,1,1,.5), inset 0 -1px 8px 0 rgba(255,255,255,.3), inset 0 -1px 0 0 rgba(255,255,255,.2);
+}
+
+.cnrflash-inner:before, .cnrflash-inner:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: -16px;
+  width: 0;
+  height: 0;
+  border: 8px solid #800000;
+}
+
+.cnrflash-inner:before {
+  left: 1px;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+}
+
+.cnrflash-inner:after {
+  right: 0;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+
+.cnrflash-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  padding-bottom: 5px;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(1,1,1,.8);
+  font-size: 0.95em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.products, .order {
+  max-width: 1200px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.order .panel {
+  text-align: left;
+}
+
+.order .panel-body {
+  text-align: left;
+}
+
+.order .panel-body {
+  padding: 0px 10px 10px 10px;
+}
+
+.order .panel-body h3 {
+  border-bottom: 2px solid #BDBDBD;
+}
+
+.order .panel-body input {
+  margin-bottom: 5px;
+}
+
+.order .panel-body textarea {
+  height: 100px;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #21252B;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-content > .signature {
+  color: #FFF;
+  padding-top: 14px;
+  text-align: right;
+}
+
+.footer-content > .signature a {
+  color: #FFF;
+}
